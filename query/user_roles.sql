@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `user_roles` (id INTEGER NOT NULL auto_increment PRIMARY KEY ,user_id INTEGER , role_id INTEGER , FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE, FOREIGN KEY (role_id) REFERENCES roles (id) ON DELETE CASCADE)
