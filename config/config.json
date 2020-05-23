@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
+    "username": "ashu8982",
+    "password": "ashu8982",
     "database": "zatpat_pay",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false
   },
